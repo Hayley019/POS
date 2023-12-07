@@ -1,0 +1,12 @@
+<ion-app>
+  <app-navbar *ngIf="['/login'].indexOf(this.router.url) == -1"></app-navbar>
+
+  <ion-router-outlet id="main-content">
+  </ion-router-outlet>
+
+  <!-- <ion-fab slot="fixed" vertical="bottom" horizontal="end" (click)="click()">
+    <ion-fab-button>
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab> -->
+</ion-app>
